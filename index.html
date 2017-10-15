@@ -7,18 +7,16 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <form action="#" method="post" name="sign up for arcade notification">
-            <div class="header">
-                <p>VR Arcade Opening Notification</p>
-            </div>
-            <div class="description">
-                <p>Sign up to be notified when VRcade opens, and to receive a free play coupon!</p>
-            </div>
-            <div class="input">
-                <input type="text" class="button" id="email" name="email" placeholder="YOUR@EMAIL.COM">
-                <input type="submit" class="button" id="submit" value="NOTIFY ME">
-            </div>
-        </form>
+        <div class="header">
+            <p>VR Arcade Opening Notification</p>
+        </div>
+        <div class="description">
+            <p>Sign up to be notified when VRcade opens, and to receive a free play coupon!</p>
+        </div>
+        <div class="input">
+            <input type="text" class="button" id="email" name="email" placeholder="YOUR@EMAIL.COM">
+            <button onclick="submit_email()">NOTIFY ME</button>
+        </div>
     </body>
     <script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
     <script>
